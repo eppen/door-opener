@@ -57,6 +57,9 @@ dependencies {
     // Material Design
     implementation("com.google.android.material:material:1.11.0")
 
+    // AppGallery Connect base SDK (required by agconnect-services.json)
+    implementation("com.huawei.agconnect:agconnect-core:1.5.2.300")
+
     // Huawei Wear Engine SDK
     implementation("com.huawei.hms:wearengine:6.11.0.302")
 
