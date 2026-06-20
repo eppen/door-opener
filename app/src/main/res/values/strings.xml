@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Door Opener</string>
+    <string name="settings_title">Settings</string>
+    <string name="wear_status_connected">Connected: %1$s</string>
+    <string name="wear_status_disconnected">No Fit 4 found</string>
+    <string name="wear_status_searching">Searching for Fit 4…</string>
+    <string name="lz_status_configured">Server configured</string>
+    <string name="lz_status_not_configured">Not configured</string>
+    <string name="last_open_format">Last open: %1$ds ago</string>
+    <string name="no_recent_activity">No recent activity</string>
+    <string name="battery_optimization">Battery Optimization</string>
+    <string name="disable_battery_opt">Disable</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings">Settings</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="door_opener_service">Door Opener is running</string>
+    <string name="door_opener_waiting">Waiting for door calls…</string>
+    <string name="door_call_alert">Door Call</string>
+    <string name="door_call_open">Open</string>
+    <string name="door_call_reject">Reject</string>
+    <string name="door_call_ignore">Ignore</string>
+    <string name="door_opened">Door Opened</string>
+    <string name="door_open_failed">Open Failed</string>
+</resources>

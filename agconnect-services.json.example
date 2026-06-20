@@ -1,0 +1,68 @@
+{
+    "_comment": "Replace this file with your actual agconnect-services.json from Huawei AppGallery Connect.",
+    "_comment2": "1. Go to https://developer.huawei.com/consumer/en/service/josp/agc/index.html",
+    "_comment3": "2. Create a project and add an Android app with package name 'com.dev2026.dooropener'",
+    "_comment4": "3. Download agconnect-services.json and place it in the app/ directory",
+    "agcgw": {
+        "backurl": "connect-drcn.hispace.hicloud.com",
+        "url": "connect-drcn.dbankcloud.cn",
+        "websocketbackurl": "connect-ws-drcn.hispace.dbankcloud.com",
+        "websocketurl": "connect-ws-drcn.hispace.dbankcloud.cn"
+    },
+    "agcgw_all": {
+        "CN": "connect-drcn.dbankcloud.cn",
+        "CN_back": "connect-drcn.hispace.hicloud.com",
+        "DE": "connect-dre.dbankcloud.cn",
+        "DE_back": "connect-dre.hispace.hicloud.com",
+        "RU": "connect-drru.hispace.dbankcloud.ru",
+        "RU_back": "connect-drru.hispace.dbankcloud.cn",
+        "SG": "connect-dra.dbankcloud.cn",
+        "SG_back": "connect-dra.hispace.hicloud.com"
+    },
+    "websocketgw_all": {
+        "CN": "connect-ws-drcn.hispace.dbankcloud.cn",
+        "CN_back": "connect-ws-drcn.hispace.dbankcloud.com",
+        "DE": "connect-ws-dre.hispace.dbankcloud.cn",
+        "DE_back": "connect-ws-dre.hispace.dbankcloud.com",
+        "RU": "connect-ws-drru.hispace.dbankcloud.ru",
+        "RU_back": "connect-ws-drru.hispace.dbankcloud.cn",
+        "SG": "connect-ws-dra.hispace.dbankcloud.cn",
+        "SG_back": "connect-ws-dra.hispace.dbankcloud.com"
+    },
+    "client": {
+        "cp_id": "PASTE_YOUR_CLIENT_ID_HERE",
+        "product_id": "PASTE_YOUR_PRODUCT_ID_HERE",
+        "client_id": "PASTE_YOUR_OAUTH_CLIENT_ID_HERE",
+        "client_secret": "PASTE_YOUR_CLIENT_SECRET_HERE",
+        "project_id": "PASTE_YOUR_PROJECT_ID_HERE",
+        "app_id": "PASTE_YOUR_APP_ID_HERE",
+        "api_key": "PASTE_YOUR_API_KEY_HERE",
+        "package_name": "com.dev2026.dooropener"
+    },
+    "oauth_client": [],
+    "app_infos": [],
+    "services": {
+        "analytics": {
+            "collector_url": "datacollector-drcn.dt.hicloud.com",
+            "collector_url_ru": "datacollector-drru.dt.dbankcloud.ru",
+            "collector_url_sg": "datacollector-dra.dt.hicloud.com",
+            "collector_url_de": "datacollector-dre.dt.hicloud.com",
+            "resource_id": "index",
+            "revenue_src": ""
+        },
+        "search": {
+            "url": "https://search-drcn.cloud.huawei.com"
+        },
+        "cloudstorage": {
+            "storage_url": "https://agc-storage-drcn.platform.dbankcloud.cn"
+        },
+        "ml": {
+            "mlservice_url": "ml-api-drcn.ai.dbankcloud.com",
+            "mlservice_url_ru": "ml-api-drru.ai.dbankcloud.ru",
+            "mlservice_url_sg": "ml-api-dra.ai.dbankcloud.com",
+            "mlservice_url_de": "ml-api-dre.ai.dbankcloud.com"
+        }
+    },
+    "region": "CN",
+    "configuration_version": "3.0"
+}
